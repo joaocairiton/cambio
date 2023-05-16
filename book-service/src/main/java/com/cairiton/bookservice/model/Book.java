@@ -25,7 +25,7 @@ public class Book implements Serializable{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 	
-	@Column(name = "from_currency", nullable = false, length = 180)
+	@Column(name = "author", nullable = false, length = 180)
 	private String author;
 	
 	@Column(name = "launch_date", nullable = false)
