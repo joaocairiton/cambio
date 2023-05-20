@@ -11,6 +11,11 @@ import com.cairiton.bookservice.model.Book;
 import com.cairiton.bookservice.proxy.CambioProxy;
 import com.cairiton.bookservice.repository.BookRepository;
 
+import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
+
+@Tag(name = "Book endpoint")
 @RestController
 @RequestMapping("book-service")
 public class BookController {
@@ -24,6 +29,7 @@ public class BookController {
 	@Autowired
 	private CambioProxy proxy;
 	
+	@Operation(summary = "Find a specific book by your id")
 	@GetMapping(value = "/{id}/{currency}")	
 	public Book findBook(
 			@PathVariable("id") Long id,
