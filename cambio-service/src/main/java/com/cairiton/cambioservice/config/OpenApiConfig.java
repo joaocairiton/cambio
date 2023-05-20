@@ -1,4 +1,4 @@
-package com.cairiton.bookservice.config;
+package com.cairiton.cambioservice.config;
 
 import org.springframework.context.annotation.Bean;
 
@@ -9,9 +9,9 @@ import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.License;
 
 @OpenAPIDefinition(info = 
-@Info(title = "Book Service API",
+@Info(title = "Cambio Service API",
 	version = "v1",
-	description = "Documentation of Book Service API"))
+	description = "Documentation of Cambio Service API"))
 public class OpenApiConfig {
 	
 	
@@ -21,7 +21,7 @@ public class OpenApiConfig {
 			.components(new Components())
 			.info(
 				new io.swagger.v3.oas.models.info.Info()
-				.title("Book Service API")
+				.title("Cambio Service API")
 				.version("v1")
 				.license(
 					new License()

@@ -47,4 +47,6 @@ spring:
     schemas: book_service
     user: root
     password: 153624
-    
+#springdoc:
+  #api-docs:
+    #path: /api-docs
