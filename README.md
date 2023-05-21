@@ -1,4 +1,4 @@
-# Projeto Compra de Livro com moeda estrageiras
+# Projeto Compra de Livro com moeda estrangeiras
 
 ## Tecnologias usadas
 ```
