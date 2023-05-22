@@ -7,11 +7,17 @@ eureka:
 spring:
   application:
     name: api-gateway
+    
+  sleuth:
+    sampler:
+      probability: 1.0
   cloud:
     gateway:
       discovery:
         locator:
           enabled: true
+          
+          
          # lower-case-service-id: true
       routes:
       - id: cambio-service

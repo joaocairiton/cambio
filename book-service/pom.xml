@@ -28,24 +28,36 @@
 				org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
 		</dependency>
+		
+	
+
 		<!--<dependency>
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-config</artifactId>
 		</dependency>-->
 
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>
+				org.springframework.cloud</groupId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
-		<!--<dependency>
-			<groupId>
-				org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>
-				runtime</scope>
-			<optional>true</optional>
-		</dependency>-->
+	
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>		
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+		</dependency>
+		
+		
 		<dependency>
 			<groupId>
 				org.springframework.boot</groupId>
@@ -60,7 +72,8 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org.springframework.boot</groupId>
+			<groupId>
+				org.springframework.boot</groupId>
 			<artifactId>
 				spring-boot-starter-aop</artifactId>
 		</dependency>
@@ -89,15 +102,18 @@
 		</dependency>
 
 		 <dependency>
-      <groupId>org.springdoc</groupId>
+      <groupId>
+				org.springdoc</groupId>
       <artifactId>springdoc-openapi-webmvc-core</artifactId>
-      <version>1.7.0</version>
-   </dependency>
+      <version>
+				1.7.0</version>
+		</dependency>
 	 <dependency>
       <groupId>org.springdoc</groupId>
-      <artifactId>springdoc-openapi-ui</artifactId>
+      <artifactId>
+				springdoc-openapi-ui</artifactId>
       <version>1.7.0</version>
-   </dependency>
+		</dependency>
 
 		<dependency>
 			<groupId>
@@ -105,7 +121,8 @@
 			<artifactId>flyway-mysql</artifactId>
 		</dependency>
 		<dependency>
-			<groupId>io.github.resilience4j</groupId>
+			<groupId>
+				io.github.resilience4j</groupId>
 			<artifactId>resilience4j-spring-boot2</artifactId>
 		</dependency>
 

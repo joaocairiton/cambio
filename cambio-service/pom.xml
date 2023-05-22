@@ -36,8 +36,10 @@
 		
 
 		<dependency>
-			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+			<groupId>
+				org.springframework.cloud</groupId>
+			<artifactId>
+				spring-cloud-starter-netflix-eureka-client</artifactId>
 		</dependency>
 
 		<dependency>
@@ -48,6 +50,20 @@
 				runtime</scope>
 			<optional>true</optional>
 		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-sleuth-zipkin</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-sleuth</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.amqp</groupId>
+			<artifactId>spring-rabbit</artifactId>
+		</dependency>
+		
 		<dependency>
 			<groupId>
 				org.springframework.boot</groupId>
@@ -79,21 +95,25 @@
 		
 
 		<dependency>
-			<groupId>org.flywaydb</groupId>
+			<groupId>
+				org.flywaydb</groupId>
 			<artifactId>flyway-mysql</artifactId>
 		</dependency>
 		
 		<dependency>
-			<groupId>org.springdoc</groupId>
+			<groupId>
+				org.springdoc</groupId>
 			<artifactId>springdoc-openapi-webmvc-core</artifactId>
-			<version>1.7.0</version>
+			<version>
+				1.7.0</version>
 		</dependency>
 		<dependency>
 			<groupId>org.springdoc</groupId>
-			<artifactId>springdoc-openapi-ui</artifactId>
+			<artifactId>
+				springdoc-openapi-ui</artifactId>
 			<version>1.7.0</version>
 		</dependency>
-		
+
 	</dependencies>
 	<dependencyManagement>
 		<dependencies>
